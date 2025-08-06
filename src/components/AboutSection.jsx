@@ -1,14 +1,16 @@
+import { Brain, Code, PenTool, Server, ToolCase, User, WholeWord } from "lucide-react";
+
 export const AboutSection = () => {
   return (
     <section id="about" className="py-20 px-4 relative">
       <div className="container mx-auto max-w-5xl">
-        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-          About <span className="text-primary">Me</span>
+        <h2 className="text-3xl md:text-5xl font-bold mb-12 text-center">
+          Sobre <span className="text-primary">Mim</span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold">Desenvolvedor Full Stack</h3>
+            <h3 className="text-3xl font-semibold">Desenvolvedor Full Stack</h3>
             <p className="text-muted-foreground">
               Sou estudante de Ciência da Computação e atuo como Desenvolvedor
               Full Stack, apaixonado por programação e tecnologia. Ao longo da
@@ -39,8 +41,51 @@ export const AboutSection = () => {
               </a>
             </div>
           </div>
+
           <div className="grid grid-cols-1 gap-6">
-            <div className="gradient-border p-6 card-hover"></div>
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Code className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg">Desenvolvedor Web</h4>
+                  <p>
+                    Construção de sites modernos e responsivos com foco em
+                    performance e boas práticas.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Server className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg">Construção de APIs</h4>
+                  <p>
+                   Desenvolvimento de APIs RESTful seguras e eficientes, com foco em escalabilidade e integração com diversas aplicações frontend
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Brain className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg">Aprendizado Contínuo</h4>
+                  <p>
+                  Sempre em busca de evolução, explorando novas tecnologias e tendências do mercado.
+                  </p>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
