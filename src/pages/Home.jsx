@@ -3,6 +3,7 @@ import { StarBackground } from "../components/StarBackground";
 import { Navbar } from "../components/Navbar";
 import { HeroSection } from "../components/HeroSection";
 import { LanguageToggle } from "../components/LanguageToggle";
+import { AboutSection } from "../components/About";
 
 export const Home = () => {
   return (
@@ -12,7 +13,7 @@ export const Home = () => {
 
       {/*  Language Toggle*/}
       <LanguageToggle/>
-      
+
       {/* Background effects*/}
       <StarBackground />
 
@@ -22,7 +23,10 @@ export const Home = () => {
       {/* Main Content */}
       <main>
         <HeroSection />
+        <AboutSection/>
       </main>
+
+
       {/* Footer */}
     </div>
   );
