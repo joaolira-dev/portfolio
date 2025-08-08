@@ -21,10 +21,10 @@ export const AboutSection = () => {
           Sobre <span className="text-primary">Mim</span>
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center ">
           <div className="space-y-6">
             <h3 className="text-3xl font-semibold">Desenvolvedor Full Stack</h3>
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground max-sm:bg-background/90 px-3">
               Sou estudante de Ciência da Computação e atuo como Desenvolvedor
               Full Stack, apaixonado por programação e tecnologia. Ao longo da
               minha jornada, aprimorei minhas habilidades em resolução de
@@ -33,7 +33,7 @@ export const AboutSection = () => {
               tornar um desenvolvedor ainda melhor.
             </p>
 
-            <p>
+            <p className="max-sm:bg-background/90 px-3">
               Tenho experiência no desenvolvimento de aplicações web, APIs e
               integrações com banco de dados, utilizando ReactJS,
               Springboot,TypeScript, NodeJS, PostgreSQL, MySQL, MongoDB. Consigo
