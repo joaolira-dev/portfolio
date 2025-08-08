@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import { useEffect, useState } from "react";
-import { X, Menu } from "lucide-react";
+import { X, Menu, Code, Code2 } from "lucide-react";
 
 const navItems = [
   { name: "Home", href: "#hero" },
@@ -35,10 +35,8 @@ export const Navbar = () => {
           href="#hero"
         >
          
-          <img
-            src="/profile.png"
-            alt="Foto de perfil"
-            className="w-15 h-15 rounded-full border-2 border-primary object-cover"
+          <Code2
+            className="w-15 h-15 rounded object-cover"
           />
           <span className="relative z-10">
             <span className="text-foreground text-glow text-2xl">

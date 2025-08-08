@@ -4,6 +4,15 @@ export const AboutSection = () => {
   return (
     <section id="about" className="py-20 px-4 relative">
       <div className="container mx-auto max-w-5xl">
+
+         <div className="flex justify-center mb-8">
+          <img
+            src="/profile.png"
+            alt="Foto de perfil"
+            className="w-48 h-48 rounded-full border-4 border-primary object-cover shadow-lg"
+          />
+        </div>
+
         <h2 className="text-3xl md:text-5xl font-bold mb-12 text-center">
           Sobre <span className="text-primary">Mim</span>
         </h2>
