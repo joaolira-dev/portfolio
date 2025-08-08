@@ -5,6 +5,7 @@ import { HeroSection } from "../components/HeroSection";
 import { LanguageToggle } from "../components/LanguageToggle";
 import { AboutSection } from "../components/AboutSection";
 import { SkillsSection } from "../components/SkillsSection";
+import { ProjectsSection } from "../components/ProjectsSection";
 
 export const Home = () => {
   return (
@@ -13,7 +14,7 @@ export const Home = () => {
       <ThemeToggle />
 
       {/*  Language Toggle*/}
-      <LanguageToggle/>
+      <LanguageToggle />
 
       {/* Background effects*/}
       <StarBackground />
@@ -24,10 +25,10 @@ export const Home = () => {
       {/* Main Content */}
       <main>
         <HeroSection />
-        <AboutSection/>
-        <SkillsSection/>
+        <AboutSection />
+        <SkillsSection />
+        <ProjectsSection />
       </main>
-
 
       {/* Footer */}
     </div>

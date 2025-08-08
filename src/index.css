@@ -74,9 +74,9 @@
     --border: 217 33% 20%;
   }
 
-  /* Tema claro (opcional, se quiser usar <html class="light">) */
+  /* Tema claro */
   .light {
-    --background: 210 40% 98%;
+    --background: 210 40% 93%;
     --foreground: 222 47% 11%;
     --card:       0 0% 100%;
     --primary:    250 47% 60%;
