@@ -2,6 +2,8 @@ import { Linkedin, Mail, MapPin, Phone, Send } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export const ContactSection = () => {
+
+
   return (
     <section className="py-24 px-4 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
@@ -80,7 +82,7 @@ export const ContactSection = () => {
           <div className="bg-card p-8 rounded-lg shadow-xs">
             <h3 className="text-2xl font-semibold mb-6">Envie uma mensagem</h3>
 
-            <form className="space-y-6">
+            <form className="space-y-6" action="https://formspree.io/f/xwpqwzje" method="POST">
               <div>
                 <label
                   htmlFor="name"
