@@ -12,10 +12,10 @@ const skills = [
   { name: "Node.js", level: 80, category: "backend" },
   { name: "MongoDB", level: 65, category: "backend" },
   { name: "PostgreSQL", level: 65, category: "backend" },
-  { name: "Java", level: 75, category: "backend" },
+  { name: "Java", level: 70, category: "backend" },
   { name: "Spring Boot", level: 65, category: "backend" },
-  { name: "Docker", level: 50, category: "tools" },
-  { name: "GitHub", level: 85, category: "tools" },
+  { name: "Docker", level: 45, category: "tools" },
+  { name: "GitHub", level: 80, category: "tools" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];
