@@ -3,7 +3,7 @@
 Bem-vindo ao meu portfólio pessoal!  
 Aqui você encontrará meus **projetos**, **habilidades** e um pouco mais sobre minha trajetória como desenvolvedor.
 
-🔗 **Acesse online:** [joaoliradev-portifolio.vercel.app](https://joaoliradev-portifolio.vercel.app)
+🔗 **Acesse online:** [joaoliradev-portfolio.vercel.app](https://joaoliradev-portfolio.vercel.app)
 
 ---
 
