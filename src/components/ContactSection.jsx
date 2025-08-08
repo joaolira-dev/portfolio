@@ -1,10 +1,12 @@
 import { Linkedin, Mail, MapPin, Phone, Send } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { FadeInSection } from "../hooks/FadeInSection";
 
 export const ContactSection = () => {
 
 
   return (
+    <FadeInSection>
     <section className="py-24 px-4 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
@@ -144,5 +146,6 @@ export const ContactSection = () => {
         </div>
       </div>
     </section>
+    </FadeInSection>
   );
 };

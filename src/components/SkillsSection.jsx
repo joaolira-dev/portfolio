@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { cn } from "@/lib/utils"
+import { FadeInSection } from "../hooks/FadeInSection";
 
 const skills = [
   // Front‑end
@@ -28,6 +29,7 @@ export const SkillsSection = () => {
   const filteredSkills = skills.filter((skill) => activeCategory === "all" || skill.category === activeCategory)
 
   return (
+    <FadeInSection>
     <section id="skills" className="py-24 px-4 relative bg-secondary/30">
       <div className="mx-auto container max-w-5xl">
         <h2 className="font-bold text-3xl md:text-5xl text-center mb-12">
@@ -70,5 +72,6 @@ export const SkillsSection = () => {
         </div>
       </div>
     </section>
+    </FadeInSection>
   );
 };
