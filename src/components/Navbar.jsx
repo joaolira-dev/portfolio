@@ -31,11 +31,19 @@ export const Navbar = () => {
     >
       <div className="container flex items-center justify-between">
         <a
-          className="text-xl font-bold text-primary flex items-center"
+          className="text-xl font-bold text-primary flex items-center gap-3"
           href="#hero"
         >
+         
+          <img
+            src="/profile.png"
+            alt="Foto de perfil"
+            className="w-15 h-15 rounded-full border-2 border-primary object-cover"
+          />
           <span className="relative z-10">
-            <span className="text-foreground text-glow text-2xl">joaolira-</span>
+            <span className="text-foreground text-glow text-2xl">
+              joaolira-
+            </span>
             <span className="text-primary text-glow text-2xl">dev</span>
           </span>
         </a>
