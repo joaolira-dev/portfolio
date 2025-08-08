@@ -1,12 +1,49 @@
-# React + Vite
+# 🌐 Portfólio - João Lira
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu portfólio pessoal!  
+Aqui você encontrará meus **projetos**, **habilidades** e um pouco mais sobre minha trajetória como desenvolvedor.
 
-Currently, two official plugins are available:
+🔗 **Acesse online:** [joaoliradev-portfolio.vercel.app](https://joaoliradev-portfolio.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js** com **Vite** para alta performance
+- **Tailwind CSS** para estilização responsiva e moderna
+- **Formspree API** para envio de mensagens via formulário de contato
+- **Lucide React** e **React Icons** para ícones otimizados
+
+---
+
+## 📌 Seções do Site
+
+- **Sobre Mim** – Um resumo sobre minha trajetória, interesses e objetivos.
+- **Projetos** – Lista dos principais trabalhos que desenvolvi, com tecnologias utilizadas.
+- **Habilidades** – Minhas stacks e ferramentas de trabalho.
+- **Contato** –  Seção para entrar em contato comigo.
+---
+
+## ✨ Funcionalidades
+
+- 🔄 **Tema Claro/Escuro** para personalização da visualização  
+- 📱 **Layout Responsivo** para dispositivos móveis e desktop  
+- ✉️ **Formulário Funcional** integrado à API do Formspree  
+- 🎨 **Design Moderno** com animações sutis e UI limpa  
+
+---
+
+## 🛠️ Como Executar Localmente
+
+```bash
+# Clone este repositório
+git clone https://github.com/joaolira-dev/portifolio.git
+
+# Acesse a pasta do projeto
+cd portifolio
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
