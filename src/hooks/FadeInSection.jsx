@@ -25,8 +25,10 @@ export const FadeInSection = ({ children }) => {
   return (
     <div
       ref={ref}
-      className={`transition-all duration-[2000ms] ease-[cubic-bezier(0.25,1,0.5,1)] transform ${
-        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+      className={`transition-all duration-[2500ms] ease-[cubic-bezier(0.25,1,0.5,1)] transform ${
+        isVisible
+          ? "opacity-100 translate-y-0 scale-100"
+          : "opacity-0 translate-y-16 scale-95"
       }`}
     >
       {children}
