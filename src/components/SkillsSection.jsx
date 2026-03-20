@@ -8,14 +8,14 @@ const skills = [
   { name: "HTML/CSS", level: 90, category: "frontend" },
   { name: "JavaScript", level: 90, category: "frontend" },
   { name: "React", level: 85, category: "frontend" },
-  { name: "TypeScript", level: 80, category: "frontend" },
-  { name: "Node.js", level: 80, category: "backend" },
-  { name: "MongoDB", level: 65, category: "backend" },
-  { name: "PostgreSQL", level: 65, category: "backend" },
+  { name: "TypeScript", level: 70, category: "frontend" },
+  { name: "Node.js", level: 70, category: "backend" },
+  { name: "MongoDB", level: 50, category: "backend" },
+  { name: "PostgreSQL", level: 60, category: "backend" },
   { name: "Java", level: 70, category: "backend" },
-  { name: "Spring Boot", level: 65, category: "backend" },
-  { name: "Docker", level: 45, category: "tools" },
-  { name: "GitHub", level: 80, category: "tools" },
+  { name: "Spring Boot", level: 70, category: "backend" },
+  { name: "Docker", level: 50, category: "tools" },
+  { name: "GitHub", level: 70, category: "tools" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];
@@ -36,7 +36,7 @@ const icons = {
 
 
 
- export const SkillsSection = () => {
+export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
   const filteredSkills = skills.filter(
     (skill) => activeCategory === "all" || skill.category === activeCategory

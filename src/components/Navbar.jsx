@@ -1,11 +1,13 @@
 import { cn } from "@/lib/utils";
 import { useEffect, useState } from "react";
 import { X, Menu, Code, Code2, Code2Icon } from "lucide-react";
+import { ThemeToggle } from "./ThemeToggle";
 
 const navItems = [
   { name: "Home", href: "#hero" },
   { name: "Sobre", href: "#about" },
   { name: "Habilidades", href: "#skills" },
+  { name: "Experiência", href: "#experience" },
   { name: "Projetos", href: "#projects" },
   { name: "Contato", href: "#contact" },
 ];
@@ -34,7 +36,7 @@ export const Navbar = () => {
           className="text-xl font-bold text-primary flex items-center gap-3"
           href="#hero"
         >
-         
+
           <Code2
             className="w-15 h-15 rounded object-cover"
           />
@@ -47,7 +49,7 @@ export const Navbar = () => {
         </a>
 
         {/* Desktop nav */}
-        <div className="hidden md:flex space-x-8">
+        <div className="hidden md:flex items-center space-x-8">
           {navItems.map((item, key) => (
             <a
               href={item.href}
@@ -57,17 +59,19 @@ export const Navbar = () => {
               {item.name}
             </a>
           ))}
+          <ThemeToggle />
         </div>
 
-        {/* Mobile nav */}
-
-        <button
-          className="md:hidden p-2 text-foreground z-50"
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-        >
-          {" "}
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}{" "}
-        </button>
+        {/* Mobile controls */}
+        <div className="md:hidden flex items-center gap-2 relative z-50">
+          <ThemeToggle />
+          <button
+            className="p-2 text-foreground"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
+            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
 
         <div
           className={cn(
